@@ -1,0 +1,1 @@
+variable.o: ../variable.c

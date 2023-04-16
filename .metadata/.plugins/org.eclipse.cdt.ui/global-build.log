@@ -1,0 +1,113 @@
+15:09:07 **** Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 
+15:09:14 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+make: Nada a ser feito para 'all'. 
+15:11:29 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 
+15:11:34 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+make: Nada a ser feito para 'all'. 
+15:19:34 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+../variable.c: In function ‘main’:
+../variable.c:16:16: warning: passing argument 1 of ‘printf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   16 |         printf(&age);
+      |                ^~~~
+      |                |
+      |                int *
+In file included from ../variable.c:1:
+/usr/include/stdio.h:356:43: note: expected ‘const char * restrict’ but argument is of type ‘int *’
+  356 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 
+15:19:38 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+make: Nada a ser feito para 'all'. 
+15:20:18 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+../variable.c: In function ‘main’:
+../variable.c:16:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   16 |         printf("Your age: %d", &age);
+      |                           ~^   ~~~~
+      |                            |   |
+      |                            int int *
+      |                           %ls
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 
+15:20:21 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+make: Nada a ser feito para 'all'. 
+15:23:30 **** Clean-only build of configuration Debug for project aula01 ****
+make clean 
+rm -rf ./variable.d ./variable.o
+rm -rf aula01
+ 
+15:23:31 **** Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+../variable.c: In function ‘main’:
+../variable.c:17:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   17 |         printf("Your age: %d", &age);
+      |                           ~^   ~~~~
+      |                            |   |
+      |                            int int *
+      |                           %ls
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 
+15:24:15 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 
