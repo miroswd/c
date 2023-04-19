@@ -111,3 +111,38 @@ Invoking: GCC C Linker
 gcc  -o "aula01" ./variable.o   
 Finished building target: aula01
  
+18:48:37 **** Clean-only build of configuration Debug for project aula01 ****
+make clean 
+rm -rf ./variable.d ./variable.o
+rm -rf aula01
+ 
+18:48:37 **** Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 
+18:48:45 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+make: Nada a ser feito para 'all'. 
+18:49:10 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+make: Nada a ser feito para 'all'. 
+18:50:04 **** Incremental Build of configuration Debug for project aula01 ****
+make all 
+Building file: ../variable.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"variable.d" -MT"variable.o" -o "variable.o" "../variable.c"
+Finished building: ../variable.c
+ 
+Building target: aula01
+Invoking: GCC C Linker
+gcc  -o "aula01" ./variable.o   
+Finished building target: aula01
+ 

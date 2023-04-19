@@ -1,4 +1,4 @@
-15:24:15 **** Incremental Build of configuration Debug for project aula01 ****
+18:50:04 **** Incremental Build of configuration Debug for project aula01 ****
 make all 
 Building file: ../variable.c
 Invoking: GCC C Compiler
@@ -11,5 +11,5 @@ gcc  -o "aula01" ./variable.o
 Finished building target: aula01
  
 
-15:24:16 Build Finished. 0 errors, 0 warnings. (took 111ms)
+18:50:04 Build Finished. 0 errors, 0 warnings. (took 112ms)
 
